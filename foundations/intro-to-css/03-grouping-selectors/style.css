@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+/* this is using GROUPING SELECTORS, so no need for a second class on each button element */
+.left,  /* grouped selector: both classes get these shared rules */
+.right {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.left {
+    background-color: black;
+    color: white;
+}
+
+.right {
+    background-color: yellow;
+}
