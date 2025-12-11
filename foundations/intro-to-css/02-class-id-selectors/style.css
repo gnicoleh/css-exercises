@@ -1,1 +1,20 @@
-/* Add CSS Styling */
+.paragraph {
+    background-color: rgb(255, 192, 203);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#myDiv {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+
+.large {
+    font-size: 24px;
+}
+
+#anotherDiv {
+    background-color: #90ee90;
+    font-weight: bold;
+    /* since class "large" also has 24px, we dont need to specify font size here */
+    /* font-size: 24px; */
+}
